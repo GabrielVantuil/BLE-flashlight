@@ -22,7 +22,7 @@ void on_write(ble_torch_s_t * p_torch_s, ble_evt_t const * p_ble_evt){
 		NRF_LOG_INFO("led_power_handler");
         p_torch_s->led_power_handler(p_ble_evt->evt.gap_evt.conn_handle, p_torch_s, p_evt_write->data);
     }
-    else if ((p_evt_write->handle == p_torch_s->led_pwm_handles.value_handle)       && (p_evt_write->len == 8)  && (p_torch_s->led_pwm_handler != NULL)){
+    else if ((p_evt_write->handle == p_torch_s->led_pwm_handles.value_handle)       && (p_evt_write->len == 10)  && (p_torch_s->led_pwm_handler != NULL)){
 		NRF_LOG_INFO("led_pwm_handler");
         p_torch_s->led_pwm_handler(p_ble_evt->evt.gap_evt.conn_handle, p_torch_s, p_evt_write->data);
     }
@@ -85,7 +85,7 @@ uint32_t ble_torch_s_init(ble_torch_s_t * p_torch_s, const ble_torch_s_init_t * 
     err_code = configAndAddChar(p_torch_s, TORCH_S_UUID_LED_POWER_CHAR      , 5, 1, &p_torch_s->led_power_handles);
     if (err_code != NRF_SUCCESS)	return err_code;
 
-    err_code = configAndAddChar(p_torch_s, TORCH_S_UUID_LED_PWM_CHAR        , 8, 1, &p_torch_s->led_pwm_handles);
+    err_code = configAndAddChar(p_torch_s, TORCH_S_UUID_LED_PWM_CHAR        , 10, 1, &p_torch_s->led_pwm_handles);
     if (err_code != NRF_SUCCESS)	return err_code;
 
     err_code = configAndAddChar(p_torch_s, TORCH_S_UUID_READ_LDR_CHAR       , 1, 0, &p_torch_s->read_ldr_handles);		//find out th do th, &p_torch_s->read_ldr_handlesis

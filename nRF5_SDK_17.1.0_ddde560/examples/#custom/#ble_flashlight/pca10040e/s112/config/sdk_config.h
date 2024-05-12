@@ -541,8 +541,6 @@
 
 // </e>
 
-// </e>
-
 // <q> BLE_RSCS_C_ENABLED  - ble_rscs_c - Running Speed and Cadence Client
  
 
