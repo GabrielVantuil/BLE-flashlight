@@ -49,7 +49,6 @@ int main(void){
     advertising_init();
     conn_params_init();
 	calcBatteryLevel(NULL);
-//	startTimers();
 	
     // Start execution.
 	advertising_start();

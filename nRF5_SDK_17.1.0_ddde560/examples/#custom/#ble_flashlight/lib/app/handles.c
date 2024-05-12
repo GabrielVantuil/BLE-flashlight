@@ -22,6 +22,14 @@ void setLedOff(void * p_context){
 	if(ledPowerLocked) return;
 	setLed(LED_OFF);
 }
+void pwm_ready_callback(uint32_t pwm_id){}
+void setLedPwm(uint16_t freq, uint16_t duty){	
+	app_pwm_uninit(&PWM1);
+    app_pwm_config_t pwm1_cfg = APP_PWM_DEFAULT_CONFIG_1CH(1000000/freq, LED_CTRL_PIN);
+    APP_ERROR_CHECK(app_pwm_init(&PWM1, &pwm1_cfg, pwm_ready_callback));
+    app_pwm_enable(&PWM1);
+	while (app_pwm_channel_duty_set(&PWM1, 0, duty) == NRF_ERROR_BUSY);
+}
 
 void lock_handler           (uint16_t conn_handle, ble_torch_s_t * p_torch_s, uint8_t lock){
 	ledPowerLocked = lock;
@@ -36,7 +44,6 @@ void led_power_handler      (uint16_t conn_handle, ble_torch_s_t * p_torch_s, co
 	if(timeout)	APP_ERROR_CHECK(app_timer_start(power_off_led_timer_id, APP_TIMER_TICKS(timeout), NULL));
 }
 
-void pwm_ready_callback(uint32_t pwm_id){}
 
 void led_pwm_handler       	(uint16_t conn_handle, ble_torch_s_t * p_torch_s, const uint8_t *params){
 	if(ledPowerLocked) return;
@@ -44,14 +51,8 @@ void led_pwm_handler       	(uint16_t conn_handle, ble_torch_s_t * p_torch_s, co
 	freq = (params[0]<<8) + params[1];
 	duty = (params[2]<<8) + params[3];
 	
-	app_pwm_uninit(&PWM1);
-    app_pwm_config_t pwm1_cfg = APP_PWM_DEFAULT_CONFIG_1CH(1000000/freq, LED_CTRL_PIN);
-    APP_ERROR_CHECK(app_pwm_init(&PWM1, &pwm1_cfg, pwm_ready_callback));
-    app_pwm_enable(&PWM1);
-	while (app_pwm_channel_duty_set(&PWM1, 0, duty) == NRF_ERROR_BUSY);
-	NRF_LOG_INFO("asd %d %d", freq, duty);
+	setLedPwm(freq, duty);
 }
-
 void connectionTimeout(void * p_context){
 	sd_ble_gap_disconnect(m_conn_handle, BLE_HCI_CONN_INTERVAL_UNACCEPTABLE);
 }
@@ -61,10 +62,7 @@ void connectionTimeout(void * p_context){
  * @details Initializes all LEDs used by the application.
  */
 void leds_init(void){
-    setLed(LED_ON);
-	nrf_delay_ms(100);
-    setLed(LED_OFF);
-	nrf_gpio_cfg_default(LED_CTRL_PIN);
+	setLedPwm(10000, 70);
 }
 
 
