@@ -7,7 +7,6 @@
 #include "nrf_pwr_mgmt.h"
 #include "app_ble.h"
 #include "nrf_delay.h"
-//#include "app_pwm.h"
 
 APP_TIMER_DEF(power_off_led_timer_id);
 

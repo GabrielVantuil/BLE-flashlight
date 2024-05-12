@@ -1327,6 +1327,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_ppi.c</FilePath>
             </File>
+            <File>
+              <FileName>nrfx_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\..\..\nRF5_SDK_17.1.0_ddde560\modules\nrfx\drivers\src\nrfx_timer.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2563,6 +2568,11 @@
                   </Cads>
                 </FileArmAds>
               </FileOption>
+            </File>
+            <File>
+              <FileName>app_pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\..\..\nRF5_SDK_17.1.0_ddde560\components\libraries\pwm\app_pwm.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -4582,6 +4592,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_ppi.c</FilePath>
             </File>
+            <File>
+              <FileName>nrfx_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\..\..\nRF5_SDK_17.1.0_ddde560\modules\nrfx\drivers\src\nrfx_timer.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -5818,6 +5833,11 @@
                   </Cads>
                 </FileArmAds>
               </FileOption>
+            </File>
+            <File>
+              <FileName>app_pwm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\..\..\..\..\..\nRF5_SDK_17.1.0_ddde560\components\libraries\pwm\app_pwm.c</FilePath>
             </File>
           </Files>
         </Group>

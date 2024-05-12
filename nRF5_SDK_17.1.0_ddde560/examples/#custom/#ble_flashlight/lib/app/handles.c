@@ -1,7 +1,10 @@
 #include "handles.h"
 #include "utils.h"
 
-//APP_PWM_INSTANCE(PWM1,1);                   // Create the instance "PWM1" using TIMER1.
+#include "app_pwm.h"
+
+APP_PWM_INSTANCE(PWM1,1);
+bool ledPowerLocked;
 
 void timers_init(void){
     // Initialize timer module, making it use the scheduler
@@ -10,30 +13,44 @@ void timers_init(void){
 }
 
 void setLed(bool val){
+	app_pwm_uninit(&PWM1);
 	nrf_gpio_cfg_output(LED_CTRL_PIN);
     nrf_gpio_pin_write(LED_CTRL_PIN, val);
 }
 
 void setLedOff(void * p_context){
+	if(ledPowerLocked) return;
 	setLed(LED_OFF);
 }
 
 void lock_handler           (uint16_t conn_handle, ble_torch_s_t * p_torch_s, uint8_t lock){
-	
+	ledPowerLocked = lock;
 }
 
 void led_power_handler      (uint16_t conn_handle, ble_torch_s_t * p_torch_s, const uint8_t *params){
+	if(ledPowerLocked) return;
 	APP_ERROR_CHECK(app_timer_stop(power_off_led_timer_id));
     setLed(params[0]?LED_ON : LED_OFF);
 	uint32_t timeout;
-	ArrayToInt32(params, 1, timeout)
+	ArrayToInt32(params, 1, timeout);
 	if(timeout)	APP_ERROR_CHECK(app_timer_start(power_off_led_timer_id, APP_TIMER_TICKS(timeout), NULL));
 }
 
-void led_pwm_handler       	(uint16_t conn_handle, ble_torch_s_t * p_torch_s, const uint8_t *params){
-//    app_pwm_config_t pwm1_cfg = APP_PWM_DEFAULT_CONFIG_1CH(10L, 12);
-}
+void pwm_ready_callback(uint32_t pwm_id){}
 
+void led_pwm_handler       	(uint16_t conn_handle, ble_torch_s_t * p_torch_s, const uint8_t *params){
+	if(ledPowerLocked) return;
+	uint16_t freq, duty;
+	freq = (params[0]<<8) + params[1];
+	duty = (params[2]<<8) + params[3];
+	
+	app_pwm_uninit(&PWM1);
+    app_pwm_config_t pwm1_cfg = APP_PWM_DEFAULT_CONFIG_1CH(1000000/freq, LED_CTRL_PIN);
+    APP_ERROR_CHECK(app_pwm_init(&PWM1, &pwm1_cfg, pwm_ready_callback));
+    app_pwm_enable(&PWM1);
+	while (app_pwm_channel_duty_set(&PWM1, 0, duty) == NRF_ERROR_BUSY);
+	NRF_LOG_INFO("asd %d %d", freq, duty);
+}
 
 void connectionTimeout(void * p_context){
 	sd_ble_gap_disconnect(m_conn_handle, BLE_HCI_CONN_INTERVAL_UNACCEPTABLE);
