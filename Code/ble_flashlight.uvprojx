@@ -340,7 +340,7 @@
               <MiscControls>--reduce_paths</MiscControls>
               <Define>APP_TIMER_V2 APP_TIMER_V2_RTC1_ENABLED BOARD_NHW003 CONFIG_GPIO_AS_PINRESET DEVELOP_IN_NRF52810 FLOAT_ABI_SOFT NRF52810_XXAA NRF52_PAN_74 NRF_SD_BLE_API_VERSION=7 S112 SOFTDEVICE_PRESENT DEBUG FLOAT_ABI_HARD NRF_LOG_USES_RTT=1 __HEAP_SIZE=2048 __STACK_SIZE=2048</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\config;..\..\..\..\..\..\components;..\..\..\..\..\..\components\ble\ble_advertising;..\..\..\..\..\..\components\ble\ble_dtm;..\..\..\..\..\..\components\ble\ble_racp;..\..\..\..\..\..\components\ble\ble_services\ble_ancs_c;..\..\..\..\..\..\components\ble\ble_services\ble_ans_c;..\..\..\..\..\..\components\ble\ble_services\ble_bas;..\..\..\..\..\..\components\ble\ble_services\ble_bas_c;..\..\..\..\..\..\components\ble\ble_services\ble_cscs;..\..\..\..\..\..\components\ble\ble_services\ble_cts_c;..\..\..\..\..\..\components\ble\ble_services\ble_dfu;..\..\..\..\..\..\components\ble\ble_services\ble_dis;..\..\..\..\..\..\components\ble\ble_services\ble_gls;..\..\..\..\..\..\components\ble\ble_services\ble_hids;..\..\..\..\..\..\components\ble\ble_services\ble_hrs;..\..\..\..\..\..\components\ble\ble_services\ble_hrs_c;..\..\..\..\..\..\components\ble\ble_services\ble_hts;..\..\..\..\..\..\components\ble\ble_services\ble_ias;..\..\..\..\..\..\components\ble\ble_services\ble_ias_c;..\..\..\..\..\..\components\ble\ble_services\ble_lls;..\..\..\..\..\..\components\ble\ble_services\ble_nus;..\..\..\..\..\..\components\ble\ble_services\ble_nus_c;..\..\..\..\..\..\components\ble\ble_services\ble_rscs;..\..\..\..\..\..\components\ble\ble_services\ble_rscs_c;..\..\..\..\..\..\components\ble\ble_services\ble_tps;..\..\..\..\..\..\components\ble\common;..\..\..\..\..\..\components\ble\nrf_ble_gatt;..\..\..\..\..\..\components\ble\nrf_ble_qwr;..\..\..\..\..\..\components\ble\peer_manager;..\..\..\..\..\..\components\boards;..\..\..\..\..\..\components\libraries\atomic;..\..\..\..\..\..\components\libraries\atomic_fifo;..\..\..\..\..\..\components\libraries\atomic_flags;..\..\..\..\..\..\components\libraries\balloc;..\..\..\..\..\..\components\libraries\bootloader\ble_dfu;..\..\..\..\..\..\components\libraries\button;..\..\..\..\..\..\components\libraries\cli;..\..\..\..\..\..\components\libraries\crc16;..\..\..\..\..\..\components\libraries\crc32;..\..\..\..\..\..\components\libraries\crypto;..\..\..\..\..\..\components\libraries\csense;..\..\..\..\..\..\components\libraries\csense_drv;..\..\..\..\..\..\components\libraries\delay;..\..\..\..\..\..\components\libraries\ecc;..\..\..\..\..\..\components\libraries\experimental_section_vars;..\..\..\..\..\..\components\libraries\experimental_task_manager;..\..\..\..\..\..\components\libraries\fds;..\..\..\..\..\..\components\libraries\fstorage;..\..\..\..\..\..\components\libraries\gfx;..\..\..\..\..\..\components\libraries\gpiote;..\..\..\..\..\..\components\libraries\hardfault;..\..\..\..\..\..\components\libraries\hci;..\..\..\..\..\..\components\libraries\led_softblink;..\..\..\..\..\..\components\libraries\log;..\..\..\..\..\..\components\libraries\log\src;..\..\..\..\..\..\components\libraries\low_power_pwm;..\..\..\..\..\..\components\libraries\mem_manager;..\..\..\..\..\..\components\libraries\memobj;..\..\..\..\..\..\components\libraries\mpu;..\..\..\..\..\..\components\libraries\mutex;..\..\..\..\..\..\components\libraries\pwm;..\..\..\..\..\..\components\libraries\pwr_mgmt;..\..\..\..\..\..\components\libraries\queue;..\..\..\..\..\..\components\libraries\ringbuf;..\..\..\..\..\..\components\libraries\scheduler;..\..\..\..\..\..\components\libraries\sdcard;..\..\..\..\..\..\components\libraries\slip;..\..\..\..\..\..\components\libraries\sortlist;..\..\..\..\..\..\components\libraries\spi_mngr;..\..\..\..\..\..\components\libraries\stack_guard;..\..\..\..\..\..\components\libraries\strerror;..\..\..\..\..\..\components\libraries\svc;..\..\..\..\..\..\components\libraries\timer;..\..\..\..\..\..\components\libraries\twi_mngr;..\..\..\..\..\..\components\libraries\twi_sensor;..\..\..\..\..\..\components\libraries\usbd;..\..\..\..\..\..\components\libraries\usbd\class\audio;..\..\..\..\..\..\components\libraries\usbd\class\cdc;..\..\..\..\..\..\components\libraries\usbd\class\cdc\acm;..\..\..\..\..\..\components\libraries\usbd\class\hid;..\..\..\..\..\..\components\libraries\usbd\class\hid\generic;..\..\..\..\..\..\components\libraries\usbd\class\hid\kbd;..\..\..\..\..\..\components\libraries\usbd\class\hid\mouse;..\..\..\..\..\..\components\libraries\usbd\class\msc;..\..\..\..\..\..\components\libraries\util;..\..\..\..\..\..\components\softdevice\common;..\..\..\..\..\..\components\softdevice\s112\headers;..\..\..\..\..\..\components\softdevice\s112\headers\nrf52;..\..\..\..\..\..\external\fprintf;..\..\..\..\..\..\external\segger_rtt;..\..\..\..\..\..\external\utf_converter;..\..\..\..\..\..\integration\nrfx;..\..\..\..\..\..\integration\nrfx\legacy;..\..\..\..\..\..\modules\nrfx;..\..\..\..\..\..\modules\nrfx\drivers\include;..\..\..\..\..\..\modules\nrfx\hal;..\config;..\..\..\lib;..\..\..\lib\Battery_level;..\..\..\lib\app;..\..\..\</IncludePath>
+              <IncludePath>config;\src\nRF5_SDK_17.1.0\components;src\nRF5_SDK_17.1.0\components\ble\ble_advertising;src\nRF5_SDK_17.1.0\components\ble\ble_dtm;src\nRF5_SDK_17.1.0\components\ble\ble_racp;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_ancs_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_ans_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_bas;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_bas_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_cscs;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_cts_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_dfu;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_dis;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_gls;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_hids;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_hrs;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_hrs_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_hts;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_ias;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_ias_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_lls;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_nus;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_nus_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_rscs;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_rscs_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_tps;src\nRF5_SDK_17.1.0\components\ble\common;src\nRF5_SDK_17.1.0\components\ble\nrf_ble_gatt;src\nRF5_SDK_17.1.0\components\ble\nrf_ble_qwr;src\nRF5_SDK_17.1.0\components\ble\peer_manager;src\nRF5_SDK_17.1.0\components\boards;src\nRF5_SDK_17.1.0\components\libraries\atomic;src\nRF5_SDK_17.1.0\components\libraries\atomic_fifo;src\nRF5_SDK_17.1.0\components\libraries\atomic_flags;src\nRF5_SDK_17.1.0\components\libraries\balloc;src\nRF5_SDK_17.1.0\components\libraries\bootloader\ble_dfu;src\nRF5_SDK_17.1.0\components\libraries\button;src\nRF5_SDK_17.1.0\components\libraries\cli;src\nRF5_SDK_17.1.0\components\libraries\crc16;src\nRF5_SDK_17.1.0\components\libraries\crc32;src\nRF5_SDK_17.1.0\components\libraries\crypto;src\nRF5_SDK_17.1.0\components\libraries\csense;src\nRF5_SDK_17.1.0\components\libraries\csense_drv;src\nRF5_SDK_17.1.0\components\libraries\delay;src\nRF5_SDK_17.1.0\components\libraries\ecc;src\nRF5_SDK_17.1.0\components\libraries\experimental_section_vars;src\nRF5_SDK_17.1.0\components\libraries\experimental_task_manager;src\nRF5_SDK_17.1.0\components\libraries\fds;src\nRF5_SDK_17.1.0\components\libraries\fstorage;src\nRF5_SDK_17.1.0\components\libraries\gfx;src\nRF5_SDK_17.1.0\components\libraries\gpiote;src\nRF5_SDK_17.1.0\components\libraries\hardfault;src\nRF5_SDK_17.1.0\components\libraries\hci;src\nRF5_SDK_17.1.0\components\libraries\led_softblink;src\nRF5_SDK_17.1.0\components\libraries\log;src\nRF5_SDK_17.1.0\components\libraries\log\src;src\nRF5_SDK_17.1.0\components\libraries\low_power_pwm;src\nRF5_SDK_17.1.0\components\libraries\mem_manager;src\nRF5_SDK_17.1.0\components\libraries\memobj;src\nRF5_SDK_17.1.0\components\libraries\mpu;src\nRF5_SDK_17.1.0\components\libraries\mutex;src\nRF5_SDK_17.1.0\components\libraries\pwm;src\nRF5_SDK_17.1.0\components\libraries\pwr_mgmt;src\nRF5_SDK_17.1.0\components\libraries\queue;src\nRF5_SDK_17.1.0\components\libraries\ringbuf;src\nRF5_SDK_17.1.0\components\libraries\scheduler;src\nRF5_SDK_17.1.0\components\libraries\sdcard;src\nRF5_SDK_17.1.0\components\libraries\slip;src\nRF5_SDK_17.1.0\components\libraries\sortlist;src\nRF5_SDK_17.1.0\components\libraries\spi_mngr;src\nRF5_SDK_17.1.0\components\libraries\stack_guard;src\nRF5_SDK_17.1.0\components\libraries\strerror;src\nRF5_SDK_17.1.0\components\libraries\svc;src\nRF5_SDK_17.1.0\components\libraries\timer;src\nRF5_SDK_17.1.0\components\libraries\twi_mngr;src\nRF5_SDK_17.1.0\components\libraries\twi_sensor;src\nRF5_SDK_17.1.0\components\libraries\usbd;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\audio;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\cdc;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\cdc\acm;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\hid;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\hid\generic;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\hid\kbd;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\hid\mouse;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\msc;src\nRF5_SDK_17.1.0\components\libraries\util;src\nRF5_SDK_17.1.0\components\softdevice\common;src\nRF5_SDK_17.1.0\components\softdevice\s112\headers;src\nRF5_SDK_17.1.0\components\softdevice\s112\headers\nrf52;src\nRF5_SDK_17.1.0\external\fprintf;src\nRF5_SDK_17.1.0\external\segger_rtt;src\nRF5_SDK_17.1.0\external\utf_converter;src\nRF5_SDK_17.1.0\integration\nrfx;src\nRF5_SDK_17.1.0\integration\nrfx\legacy;src\nRF5_SDK_17.1.0\modules\nrfx;src\nRF5_SDK_17.1.0\modules\nrfx\drivers\include;src\nRF5_SDK_17.1.0\modules\nrfx\hal;src\lib;src\lib\Battery_level;src\lib\app;src\</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -358,7 +358,7 @@
               <MiscControls> --cpreproc_opts=-DAPP_TIMER_V2,-DAPP_TIMER_V2_RTC1_ENABLED,-DBOARD_PCA10040,-DCONFIG_GPIO_AS_PINRESET,-DDEVELOP_IN_NRF52832,-DFLOAT_ABI_SOFT,-DNRF52810_XXAA,-DNRF52_PAN_74,-DNRFX_COREDEP_DELAY_US_LOOP_CYCLES=3,-DNRF_SD_BLE_API_VERSION=7,-DS112,-DSOFTDEVICE_PRESENT,-D__HEAP_SIZE=2048,-D__STACK_SIZE=2048</MiscControls>
               <Define>APP_TIMER_V2 APP_TIMER_V2_RTC1_ENABLED BOARD_NHW003 CONFIG_GPIO_AS_PINRESET DEVELOP_IN_NRF52832 FLOAT_ABI_SOFT NRF52810_XXAA NRF52_PAN_74 NRFX_COREDEP_DELAY_US_LOOP_CYCLES=3 NRF_SD_BLE_API_VERSION=7 S112 SOFTDEVICE_PRESENT __HEAP_SIZE=2048 __STACK_SIZE=2048</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\config;..\..\..\..\..\..\components;..\..\..\..\..\..\components\ble\ble_advertising;..\..\..\..\..\..\components\ble\ble_dtm;..\..\..\..\..\..\components\ble\ble_racp;..\..\..\..\..\..\components\ble\ble_services\ble_ancs_c;..\..\..\..\..\..\components\ble\ble_services\ble_ans_c;..\..\..\..\..\..\components\ble\ble_services\ble_bas;..\..\..\..\..\..\components\ble\ble_services\ble_bas_c;..\..\..\..\..\..\components\ble\ble_services\ble_cscs;..\..\..\..\..\..\components\ble\ble_services\ble_cts_c;..\..\..\..\..\..\components\ble\ble_services\ble_dfu;..\..\..\..\..\..\components\ble\ble_services\ble_dis;..\..\..\..\..\..\components\ble\ble_services\ble_gls;..\..\..\..\..\..\components\ble\ble_services\ble_hids;..\..\..\..\..\..\components\ble\ble_services\ble_hrs;..\..\..\..\..\..\components\ble\ble_services\ble_hrs_c;..\..\..\..\..\..\components\ble\ble_services\ble_hts;..\..\..\..\..\..\components\ble\ble_services\ble_ias;..\..\..\..\..\..\components\ble\ble_services\ble_ias_c;..\..\..\..\..\..\components\ble\ble_services\ble_lbs;..\..\..\..\..\..\components\ble\ble_services\ble_lbs_c;..\..\..\..\..\..\components\ble\ble_services\ble_lls;..\..\..\..\..\..\components\ble\ble_services\ble_nus;..\..\..\..\..\..\components\ble\ble_services\ble_nus_c;..\..\..\..\..\..\components\ble\ble_services\ble_rscs;..\..\..\..\..\..\components\ble\ble_services\ble_rscs_c;..\..\..\..\..\..\components\ble\ble_services\ble_tps;..\..\..\..\..\..\components\ble\common;..\..\..\..\..\..\components\ble\nrf_ble_gatt;..\..\..\..\..\..\components\ble\nrf_ble_qwr;..\..\..\..\..\..\components\ble\peer_manager;..\..\..\..\..\..\components\boards;..\..\..\..\..\..\components\libraries\atomic;..\..\..\..\..\..\components\libraries\atomic_fifo;..\..\..\..\..\..\components\libraries\atomic_flags;..\..\..\..\..\..\components\libraries\balloc;..\..\..\..\..\..\components\libraries\bootloader\ble_dfu;..\..\..\..\..\..\components\libraries\button;..\..\..\..\..\..\components\libraries\cli;..\..\..\..\..\..\components\libraries\crc16;..\..\..\..\..\..\components\libraries\crc32;..\..\..\..\..\..\components\libraries\crypto;..\..\..\..\..\..\components\libraries\csense;..\..\..\..\..\..\components\libraries\csense_drv;..\..\..\..\..\..\components\libraries\delay;..\..\..\..\..\..\components\libraries\ecc;..\..\..\..\..\..\components\libraries\experimental_section_vars;..\..\..\..\..\..\components\libraries\experimental_task_manager;..\..\..\..\..\..\components\libraries\fds;..\..\..\..\..\..\components\libraries\fstorage;..\..\..\..\..\..\components\libraries\gfx;..\..\..\..\..\..\components\libraries\gpiote;..\..\..\..\..\..\components\libraries\hardfault;..\..\..\..\..\..\components\libraries\hci;..\..\..\..\..\..\components\libraries\led_softblink;..\..\..\..\..\..\components\libraries\log;..\..\..\..\..\..\components\libraries\log\src;..\..\..\..\..\..\components\libraries\low_power_pwm;..\..\..\..\..\..\components\libraries\mem_manager;..\..\..\..\..\..\components\libraries\memobj;..\..\..\..\..\..\components\libraries\mpu;..\..\..\..\..\..\components\libraries\mutex;..\..\..\..\..\..\components\libraries\pwm;..\..\..\..\..\..\components\libraries\pwr_mgmt;..\..\..\..\..\..\components\libraries\queue;..\..\..\..\..\..\components\libraries\ringbuf;..\..\..\..\..\..\components\libraries\scheduler;..\..\..\..\..\..\components\libraries\sdcard;..\..\..\..\..\..\components\libraries\slip;..\..\..\..\..\..\components\libraries\sortlist;..\..\..\..\..\..\components\libraries\spi_mngr;..\..\..\..\..\..\components\libraries\stack_guard;..\..\..\..\..\..\components\libraries\strerror;..\..\..\..\..\..\components\libraries\svc;..\..\..\..\..\..\components\libraries\timer;..\..\..\..\..\..\components\libraries\twi_mngr;..\..\..\..\..\..\components\libraries\twi_sensor;..\..\..\..\..\..\components\libraries\usbd;..\..\..\..\..\..\components\libraries\usbd\class\audio;..\..\..\..\..\..\components\libraries\usbd\class\cdc;..\..\..\..\..\..\components\libraries\usbd\class\cdc\acm;..\..\..\..\..\..\components\libraries\usbd\class\hid;..\..\..\..\..\..\components\libraries\usbd\class\hid\generic;..\..\..\..\..\..\components\libraries\usbd\class\hid\kbd;..\..\..\..\..\..\components\libraries\usbd\class\hid\mouse;..\..\..\..\..\..\components\libraries\usbd\class\msc;..\..\..\..\..\..\components\libraries\util;..\..\..\..\..\..\components\softdevice\common;..\..\..\..\..\..\components\softdevice\s112\headers;..\..\..\..\..\..\components\softdevice\s112\headers\nrf52;..\..\..\..\..\..\external\fprintf;..\..\..\..\..\..\external\segger_rtt;..\..\..\..\..\..\external\utf_converter;..\..\..\..\..\..\integration\nrfx;..\..\..\..\..\..\integration\nrfx\legacy;..\..\..\..\..\..\modules\nrfx;..\..\..\..\..\..\modules\nrfx\drivers\include;..\..\..\..\..\..\modules\nrfx\hal;..\config</IncludePath>
+              <IncludePath>..\..\..\config;src\nRF5_SDK_17.1.0\components;src\nRF5_SDK_17.1.0\components\ble\ble_advertising;src\nRF5_SDK_17.1.0\components\ble\ble_dtm;src\nRF5_SDK_17.1.0\components\ble\ble_racp;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_ancs_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_ans_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_bas;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_bas_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_cscs;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_cts_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_dfu;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_dis;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_gls;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_hids;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_hrs;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_hrs_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_hts;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_ias;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_ias_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_lbs;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_lbs_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_lls;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_nus;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_nus_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_rscs;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_rscs_c;src\nRF5_SDK_17.1.0\components\ble\ble_services\ble_tps;src\nRF5_SDK_17.1.0\components\ble\common;src\nRF5_SDK_17.1.0\components\ble\nrf_ble_gatt;src\nRF5_SDK_17.1.0\components\ble\nrf_ble_qwr;src\nRF5_SDK_17.1.0\components\ble\peer_manager;src\nRF5_SDK_17.1.0\components\boards;src\nRF5_SDK_17.1.0\components\libraries\atomic;src\nRF5_SDK_17.1.0\components\libraries\atomic_fifo;src\nRF5_SDK_17.1.0\components\libraries\atomic_flags;src\nRF5_SDK_17.1.0\components\libraries\balloc;src\nRF5_SDK_17.1.0\components\libraries\bootloader\ble_dfu;src\nRF5_SDK_17.1.0\components\libraries\button;src\nRF5_SDK_17.1.0\components\libraries\cli;src\nRF5_SDK_17.1.0\components\libraries\crc16;src\nRF5_SDK_17.1.0\components\libraries\crc32;src\nRF5_SDK_17.1.0\components\libraries\crypto;src\nRF5_SDK_17.1.0\components\libraries\csense;src\nRF5_SDK_17.1.0\components\libraries\csense_drv;src\nRF5_SDK_17.1.0\components\libraries\delay;src\nRF5_SDK_17.1.0\components\libraries\ecc;src\nRF5_SDK_17.1.0\components\libraries\experimental_section_vars;src\nRF5_SDK_17.1.0\components\libraries\experimental_task_manager;src\nRF5_SDK_17.1.0\components\libraries\fds;src\nRF5_SDK_17.1.0\components\libraries\fstorage;src\nRF5_SDK_17.1.0\components\libraries\gfx;src\nRF5_SDK_17.1.0\components\libraries\gpiote;src\nRF5_SDK_17.1.0\components\libraries\hardfault;src\nRF5_SDK_17.1.0\components\libraries\hci;src\nRF5_SDK_17.1.0\components\libraries\led_softblink;src\nRF5_SDK_17.1.0\components\libraries\log;src\nRF5_SDK_17.1.0\components\libraries\log\src;src\nRF5_SDK_17.1.0\components\libraries\low_power_pwm;src\nRF5_SDK_17.1.0\components\libraries\mem_manager;src\nRF5_SDK_17.1.0\components\libraries\memobj;src\nRF5_SDK_17.1.0\components\libraries\mpu;src\nRF5_SDK_17.1.0\components\libraries\mutex;src\nRF5_SDK_17.1.0\components\libraries\pwm;src\nRF5_SDK_17.1.0\components\libraries\pwr_mgmt;src\nRF5_SDK_17.1.0\components\libraries\queue;src\nRF5_SDK_17.1.0\components\libraries\ringbuf;src\nRF5_SDK_17.1.0\components\libraries\scheduler;src\nRF5_SDK_17.1.0\components\libraries\sdcard;src\nRF5_SDK_17.1.0\components\libraries\slip;src\nRF5_SDK_17.1.0\components\libraries\sortlist;src\nRF5_SDK_17.1.0\components\libraries\spi_mngr;src\nRF5_SDK_17.1.0\components\libraries\stack_guard;src\nRF5_SDK_17.1.0\components\libraries\strerror;src\nRF5_SDK_17.1.0\components\libraries\svc;src\nRF5_SDK_17.1.0\components\libraries\timer;src\nRF5_SDK_17.1.0\components\libraries\twi_mngr;src\nRF5_SDK_17.1.0\components\libraries\twi_sensor;src\nRF5_SDK_17.1.0\components\libraries\usbd;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\audio;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\cdc;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\cdc\acm;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\hid;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\hid\generic;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\hid\kbd;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\hid\mouse;src\nRF5_SDK_17.1.0\components\libraries\usbd\class\msc;src\nRF5_SDK_17.1.0\components\libraries\util;src\nRF5_SDK_17.1.0\components\softdevice\common;src\nRF5_SDK_17.1.0\components\softdevice\s112\headers;src\nRF5_SDK_17.1.0\components\softdevice\s112\headers\nrf52;src\nRF5_SDK_17.1.0\external\fprintf;src\nRF5_SDK_17.1.0\external\segger_rtt;src\nRF5_SDK_17.1.0\external\utf_converter;src\nRF5_SDK_17.1.0\integration\nrfx;src\nRF5_SDK_17.1.0\integration\nrfx\legacy;src\nRF5_SDK_17.1.0\modules\nrfx;src\nRF5_SDK_17.1.0\modules\nrfx\drivers\include;src\nRF5_SDK_17.1.0\modules\nrfx\hal;..\config</IncludePath>
             </VariousControls>
           </Aads>
           <LDads>
@@ -387,42 +387,42 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\main.c</FilePath>
+              <FilePath>src\main.c</FilePath>
             </File>
             <File>
               <FileName>sdk_config.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\config\sdk_config.h</FilePath>
+              <FilePath>config\sdk_config.h</FilePath>
             </File>
             <File>
               <FileName>Battery_level.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\lib\Battery_level\Battery_level.c</FilePath>
+              <FilePath>src\lib\Battery_level\Battery_level.c</FilePath>
             </File>
             <File>
               <FileName>app_ble.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\lib\app\app_ble.c</FilePath>
+              <FilePath>src\lib\app\app_ble.c</FilePath>
             </File>
             <File>
               <FileName>handles.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\lib\app\handles.c</FilePath>
+              <FilePath>src\lib\app\handles.c</FilePath>
             </File>
             <File>
               <FileName>parameters.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\..\lib\parameters.h</FilePath>
+              <FilePath>src\lib\parameters.h</FilePath>
             </File>
             <File>
               <FileName>ble_torch_s.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\lib\ble_torch_s.c</FilePath>
+              <FilePath>src\lib\ble_torch_s.c</FilePath>
             </File>
             <File>
               <FileName>utils.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\..\lib\utils.h</FilePath>
+              <FilePath>src\lib\utils.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -432,7 +432,7 @@
             <File>
               <FileName>board_config.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\..\board_config.h</FilePath>
+              <FilePath>src\board_config.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -442,7 +442,7 @@
             <File>
               <FileName>utf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\utf_converter\utf.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\utf_converter\utf.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -503,7 +503,7 @@
             <File>
               <FileName>ble_advdata.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\common\ble_advdata.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\common\ble_advdata.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -559,7 +559,7 @@
             <File>
               <FileName>ble_conn_params.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\common\ble_conn_params.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\common\ble_conn_params.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -615,7 +615,7 @@
             <File>
               <FileName>ble_conn_state.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\common\ble_conn_state.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\common\ble_conn_state.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -671,7 +671,7 @@
             <File>
               <FileName>ble_srv_common.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\common\ble_srv_common.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\common\ble_srv_common.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -727,7 +727,7 @@
             <File>
               <FileName>nrf_ble_gatt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\nrf_ble_gatt\nrf_ble_gatt.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\nrf_ble_gatt\nrf_ble_gatt.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -783,7 +783,7 @@
             <File>
               <FileName>nrf_ble_qwr.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\nrf_ble_qwr\nrf_ble_qwr.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\nrf_ble_qwr\nrf_ble_qwr.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -847,17 +847,17 @@
             <File>
               <FileName>nrfx_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_adc.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_adc.c</FilePath>
             </File>
             <File>
               <FileName>nrfx_saadc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_saadc.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_saadc.c</FilePath>
             </File>
             <File>
               <FileName>nrf_drv_clock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_clock.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_clock.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -913,7 +913,7 @@
             <File>
               <FileName>nrf_drv_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_uart.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_uart.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -969,7 +969,7 @@
             <File>
               <FileName>nrfx_atomic.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\soc\nrfx_atomic.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\soc\nrfx_atomic.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1025,7 +1025,7 @@
             <File>
               <FileName>nrfx_clock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_clock.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_clock.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1081,7 +1081,7 @@
             <File>
               <FileName>nrfx_gpiote.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_gpiote.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_gpiote.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1137,7 +1137,7 @@
             <File>
               <FileName>nrfx_prs.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\prs\nrfx_prs.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\prs\nrfx_prs.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1193,7 +1193,7 @@
             <File>
               <FileName>nrfx_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_uart.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_uart.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1249,7 +1249,7 @@
             <File>
               <FileName>nrfx_uarte.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_uarte.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_uarte.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1305,32 +1305,32 @@
             <File>
               <FileName>nrfx_twi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_twi.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_twi.c</FilePath>
             </File>
             <File>
               <FileName>nrfx_twim.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_twim.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_twim.c</FilePath>
             </File>
             <File>
               <FileName>nrf_drv_twi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_twi.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_twi.c</FilePath>
             </File>
             <File>
               <FileName>nrf_drv_ppi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_ppi.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_ppi.c</FilePath>
             </File>
             <File>
               <FileName>nrfx_ppi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_ppi.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_ppi.c</FilePath>
             </File>
             <File>
               <FileName>nrfx_timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\..\..\nRF5_SDK_17.1.0_ddde560\modules\nrfx\drivers\src\nrfx_timer.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_timer.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1340,7 +1340,7 @@
             <File>
               <FileName>app_button.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\button\app_button.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\button\app_button.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1396,7 +1396,7 @@
             <File>
               <FileName>app_error.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\util\app_error.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\util\app_error.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1452,7 +1452,7 @@
             <File>
               <FileName>app_error_handler_keil.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\util\app_error_handler_keil.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\util\app_error_handler_keil.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1508,7 +1508,7 @@
             <File>
               <FileName>app_error_weak.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\util\app_error_weak.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\util\app_error_weak.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1564,7 +1564,7 @@
             <File>
               <FileName>app_scheduler.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\scheduler\app_scheduler.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\scheduler\app_scheduler.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1620,7 +1620,7 @@
             <File>
               <FileName>app_timer2.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\timer\app_timer2.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\timer\app_timer2.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1676,7 +1676,7 @@
             <File>
               <FileName>app_util_platform.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\util\app_util_platform.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\util\app_util_platform.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1732,7 +1732,7 @@
             <File>
               <FileName>drv_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\timer\drv_rtc.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\timer\drv_rtc.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1788,7 +1788,7 @@
             <File>
               <FileName>hardfault_implementation.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\hardfault\hardfault_implementation.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\hardfault\hardfault_implementation.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1844,7 +1844,7 @@
             <File>
               <FileName>nrf_assert.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\util\nrf_assert.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\util\nrf_assert.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1900,7 +1900,7 @@
             <File>
               <FileName>nrf_atfifo.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\atomic_fifo\nrf_atfifo.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\atomic_fifo\nrf_atfifo.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -1956,7 +1956,7 @@
             <File>
               <FileName>nrf_atflags.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\atomic_flags\nrf_atflags.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\atomic_flags\nrf_atflags.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2012,7 +2012,7 @@
             <File>
               <FileName>nrf_atomic.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\atomic\nrf_atomic.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\atomic\nrf_atomic.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2068,7 +2068,7 @@
             <File>
               <FileName>nrf_balloc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\balloc\nrf_balloc.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\balloc\nrf_balloc.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2124,7 +2124,7 @@
             <File>
               <FileName>nrf_fprintf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\fprintf\nrf_fprintf.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\fprintf\nrf_fprintf.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2180,7 +2180,7 @@
             <File>
               <FileName>nrf_fprintf_format.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\fprintf\nrf_fprintf_format.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\fprintf\nrf_fprintf_format.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2236,7 +2236,7 @@
             <File>
               <FileName>nrf_memobj.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\memobj\nrf_memobj.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\memobj\nrf_memobj.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2292,7 +2292,7 @@
             <File>
               <FileName>nrf_pwr_mgmt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\pwr_mgmt\nrf_pwr_mgmt.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\pwr_mgmt\nrf_pwr_mgmt.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2348,7 +2348,7 @@
             <File>
               <FileName>nrf_ringbuf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\ringbuf\nrf_ringbuf.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\ringbuf\nrf_ringbuf.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2404,7 +2404,7 @@
             <File>
               <FileName>nrf_section_iter.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section_iter.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\experimental_section_vars\nrf_section_iter.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2460,7 +2460,7 @@
             <File>
               <FileName>nrf_sortlist.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\sortlist\nrf_sortlist.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\sortlist\nrf_sortlist.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2516,7 +2516,7 @@
             <File>
               <FileName>nrf_strerror.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\strerror\nrf_strerror.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\strerror\nrf_strerror.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2572,7 +2572,7 @@
             <File>
               <FileName>app_pwm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\..\..\nRF5_SDK_17.1.0_ddde560\components\libraries\pwm\app_pwm.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\pwm\app_pwm.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2582,7 +2582,7 @@
             <File>
               <FileName>nrf_log_backend_rtt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_backend_rtt.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_backend_rtt.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2638,7 +2638,7 @@
             <File>
               <FileName>nrf_log_backend_serial.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_backend_serial.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_backend_serial.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2694,7 +2694,7 @@
             <File>
               <FileName>nrf_log_backend_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_backend_uart.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_backend_uart.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2750,7 +2750,7 @@
             <File>
               <FileName>nrf_log_default_backends.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_default_backends.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_default_backends.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2806,7 +2806,7 @@
             <File>
               <FileName>nrf_log_frontend.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_frontend.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_frontend.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2862,7 +2862,7 @@
             <File>
               <FileName>nrf_log_str_formatter.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_str_formatter.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_str_formatter.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2923,7 +2923,7 @@
             <File>
               <FileName>SEGGER_RTT.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -2979,7 +2979,7 @@
             <File>
               <FileName>SEGGER_RTT_Syscalls_KEIL.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_Syscalls_KEIL.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT_Syscalls_KEIL.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -3035,7 +3035,7 @@
             <File>
               <FileName>SEGGER_RTT_printf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_printf.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT_printf.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -3096,7 +3096,7 @@
             <File>
               <FileName>nrf_sdh.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\softdevice\common\nrf_sdh.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\softdevice\common\nrf_sdh.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -3152,7 +3152,7 @@
             <File>
               <FileName>nrf_sdh_ble.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\softdevice\common\nrf_sdh_ble.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\softdevice\common\nrf_sdh_ble.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -3208,7 +3208,7 @@
             <File>
               <FileName>nrf_sdh_soc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\softdevice\common\nrf_sdh_soc.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\softdevice\common\nrf_sdh_soc.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -3313,7 +3313,7 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>..\..\..\..\..\..\components\softdevice\s112\hex\</OutputDirectory>
+          <OutputDirectory>src\nRF5_SDK_17.1.0\components\softdevice\s112\hex\</OutputDirectory>
           <OutputName>s112_nrf52_7.2.0_softdevice.hex</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
@@ -3652,42 +3652,42 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\main.c</FilePath>
+              <FilePath>src\main.c</FilePath>
             </File>
             <File>
               <FileName>sdk_config.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\config\sdk_config.h</FilePath>
+              <FilePath>config\sdk_config.h</FilePath>
             </File>
             <File>
               <FileName>Battery_level.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\lib\Battery_level\Battery_level.c</FilePath>
+              <FilePath>src\lib\Battery_level\Battery_level.c</FilePath>
             </File>
             <File>
               <FileName>app_ble.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\lib\app\app_ble.c</FilePath>
+              <FilePath>src\lib\app\app_ble.c</FilePath>
             </File>
             <File>
               <FileName>handles.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\lib\app\handles.c</FilePath>
+              <FilePath>src\lib\app\handles.c</FilePath>
             </File>
             <File>
               <FileName>parameters.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\..\lib\parameters.h</FilePath>
+              <FilePath>src\lib\parameters.h</FilePath>
             </File>
             <File>
               <FileName>ble_torch_s.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\lib\ble_torch_s.c</FilePath>
+              <FilePath>src\lib\ble_torch_s.c</FilePath>
             </File>
             <File>
               <FileName>utils.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\..\lib\utils.h</FilePath>
+              <FilePath>src\lib\utils.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -3697,7 +3697,7 @@
             <File>
               <FileName>board_config.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\..\board_config.h</FilePath>
+              <FilePath>src\board_config.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -3707,7 +3707,7 @@
             <File>
               <FileName>utf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\utf_converter\utf.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\utf_converter\utf.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -3768,7 +3768,7 @@
             <File>
               <FileName>ble_advdata.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\common\ble_advdata.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\common\ble_advdata.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -3824,7 +3824,7 @@
             <File>
               <FileName>ble_conn_params.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\common\ble_conn_params.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\common\ble_conn_params.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -3880,7 +3880,7 @@
             <File>
               <FileName>ble_conn_state.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\common\ble_conn_state.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\common\ble_conn_state.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -3936,7 +3936,7 @@
             <File>
               <FileName>ble_srv_common.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\common\ble_srv_common.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\common\ble_srv_common.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -3992,7 +3992,7 @@
             <File>
               <FileName>nrf_ble_gatt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\nrf_ble_gatt\nrf_ble_gatt.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\nrf_ble_gatt\nrf_ble_gatt.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4048,7 +4048,7 @@
             <File>
               <FileName>nrf_ble_qwr.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\ble\nrf_ble_qwr\nrf_ble_qwr.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\ble\nrf_ble_qwr\nrf_ble_qwr.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4112,17 +4112,17 @@
             <File>
               <FileName>nrfx_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_adc.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_adc.c</FilePath>
             </File>
             <File>
               <FileName>nrfx_saadc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_saadc.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_saadc.c</FilePath>
             </File>
             <File>
               <FileName>nrf_drv_clock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_clock.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_clock.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4178,7 +4178,7 @@
             <File>
               <FileName>nrf_drv_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_uart.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_uart.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4234,7 +4234,7 @@
             <File>
               <FileName>nrfx_atomic.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\soc\nrfx_atomic.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\soc\nrfx_atomic.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4290,7 +4290,7 @@
             <File>
               <FileName>nrfx_clock.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_clock.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_clock.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4346,7 +4346,7 @@
             <File>
               <FileName>nrfx_gpiote.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_gpiote.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_gpiote.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4402,7 +4402,7 @@
             <File>
               <FileName>nrfx_prs.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\prs\nrfx_prs.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\prs\nrfx_prs.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4458,7 +4458,7 @@
             <File>
               <FileName>nrfx_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_uart.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_uart.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4514,7 +4514,7 @@
             <File>
               <FileName>nrfx_uarte.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_uarte.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_uarte.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4570,32 +4570,32 @@
             <File>
               <FileName>nrfx_twi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_twi.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_twi.c</FilePath>
             </File>
             <File>
               <FileName>nrfx_twim.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_twim.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_twim.c</FilePath>
             </File>
             <File>
               <FileName>nrf_drv_twi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_twi.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_twi.c</FilePath>
             </File>
             <File>
               <FileName>nrf_drv_ppi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_ppi.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\integration\nrfx\legacy\nrf_drv_ppi.c</FilePath>
             </File>
             <File>
               <FileName>nrfx_ppi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_ppi.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_ppi.c</FilePath>
             </File>
             <File>
               <FileName>nrfx_timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\..\..\nRF5_SDK_17.1.0_ddde560\modules\nrfx\drivers\src\nrfx_timer.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\modules\nrfx\drivers\src\nrfx_timer.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -4605,7 +4605,7 @@
             <File>
               <FileName>app_button.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\button\app_button.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\button\app_button.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4661,7 +4661,7 @@
             <File>
               <FileName>app_error.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\util\app_error.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\util\app_error.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4717,7 +4717,7 @@
             <File>
               <FileName>app_error_handler_keil.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\util\app_error_handler_keil.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\util\app_error_handler_keil.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4773,7 +4773,7 @@
             <File>
               <FileName>app_error_weak.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\util\app_error_weak.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\util\app_error_weak.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4829,7 +4829,7 @@
             <File>
               <FileName>app_scheduler.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\scheduler\app_scheduler.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\scheduler\app_scheduler.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4885,7 +4885,7 @@
             <File>
               <FileName>app_timer2.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\timer\app_timer2.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\timer\app_timer2.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4941,7 +4941,7 @@
             <File>
               <FileName>app_util_platform.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\util\app_util_platform.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\util\app_util_platform.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -4997,7 +4997,7 @@
             <File>
               <FileName>drv_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\timer\drv_rtc.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\timer\drv_rtc.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5053,7 +5053,7 @@
             <File>
               <FileName>hardfault_implementation.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\hardfault\hardfault_implementation.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\hardfault\hardfault_implementation.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5109,7 +5109,7 @@
             <File>
               <FileName>nrf_assert.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\util\nrf_assert.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\util\nrf_assert.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5165,7 +5165,7 @@
             <File>
               <FileName>nrf_atfifo.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\atomic_fifo\nrf_atfifo.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\atomic_fifo\nrf_atfifo.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5221,7 +5221,7 @@
             <File>
               <FileName>nrf_atflags.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\atomic_flags\nrf_atflags.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\atomic_flags\nrf_atflags.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5277,7 +5277,7 @@
             <File>
               <FileName>nrf_atomic.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\atomic\nrf_atomic.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\atomic\nrf_atomic.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5333,7 +5333,7 @@
             <File>
               <FileName>nrf_balloc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\balloc\nrf_balloc.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\balloc\nrf_balloc.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5389,7 +5389,7 @@
             <File>
               <FileName>nrf_fprintf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\fprintf\nrf_fprintf.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\fprintf\nrf_fprintf.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5445,7 +5445,7 @@
             <File>
               <FileName>nrf_fprintf_format.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\fprintf\nrf_fprintf_format.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\fprintf\nrf_fprintf_format.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5501,7 +5501,7 @@
             <File>
               <FileName>nrf_memobj.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\memobj\nrf_memobj.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\memobj\nrf_memobj.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5557,7 +5557,7 @@
             <File>
               <FileName>nrf_pwr_mgmt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\pwr_mgmt\nrf_pwr_mgmt.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\pwr_mgmt\nrf_pwr_mgmt.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5613,7 +5613,7 @@
             <File>
               <FileName>nrf_ringbuf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\ringbuf\nrf_ringbuf.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\ringbuf\nrf_ringbuf.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5669,7 +5669,7 @@
             <File>
               <FileName>nrf_section_iter.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\experimental_section_vars\nrf_section_iter.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\experimental_section_vars\nrf_section_iter.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5725,7 +5725,7 @@
             <File>
               <FileName>nrf_sortlist.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\sortlist\nrf_sortlist.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\sortlist\nrf_sortlist.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5781,7 +5781,7 @@
             <File>
               <FileName>nrf_strerror.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\strerror\nrf_strerror.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\strerror\nrf_strerror.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5837,7 +5837,7 @@
             <File>
               <FileName>app_pwm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\..\..\nRF5_SDK_17.1.0_ddde560\components\libraries\pwm\app_pwm.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\pwm\app_pwm.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -5847,7 +5847,7 @@
             <File>
               <FileName>nrf_log_backend_rtt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_backend_rtt.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_backend_rtt.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5903,7 +5903,7 @@
             <File>
               <FileName>nrf_log_backend_serial.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_backend_serial.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_backend_serial.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -5959,7 +5959,7 @@
             <File>
               <FileName>nrf_log_backend_uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_backend_uart.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_backend_uart.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -6015,7 +6015,7 @@
             <File>
               <FileName>nrf_log_default_backends.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_default_backends.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_default_backends.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -6071,7 +6071,7 @@
             <File>
               <FileName>nrf_log_frontend.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_frontend.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_frontend.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -6127,7 +6127,7 @@
             <File>
               <FileName>nrf_log_str_formatter.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\libraries\log\src\nrf_log_str_formatter.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\libraries\log\src\nrf_log_str_formatter.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -6188,7 +6188,7 @@
             <File>
               <FileName>SEGGER_RTT.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -6244,7 +6244,7 @@
             <File>
               <FileName>SEGGER_RTT_Syscalls_KEIL.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_Syscalls_KEIL.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT_Syscalls_KEIL.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -6300,7 +6300,7 @@
             <File>
               <FileName>SEGGER_RTT_printf.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\external\segger_rtt\SEGGER_RTT_printf.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\external\segger_rtt\SEGGER_RTT_printf.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -6361,7 +6361,7 @@
             <File>
               <FileName>nrf_sdh.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\softdevice\common\nrf_sdh.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\softdevice\common\nrf_sdh.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -6417,7 +6417,7 @@
             <File>
               <FileName>nrf_sdh_ble.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\softdevice\common\nrf_sdh_ble.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\softdevice\common\nrf_sdh_ble.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
@@ -6473,7 +6473,7 @@
             <File>
               <FileName>nrf_sdh_soc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\..\components\softdevice\common\nrf_sdh_soc.c</FilePath>
+              <FilePath>src\nRF5_SDK_17.1.0\components\softdevice\common\nrf_sdh_soc.c</FilePath>
               <FileOption>
                 <CommonProperty>
                   <UseCPPCompiler>0</UseCPPCompiler>
